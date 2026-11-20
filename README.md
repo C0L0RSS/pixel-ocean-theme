@@ -2,6 +2,12 @@
 
 An 8-bit pixel-art ocean behind your conversation in the Claude Code desktop app.
 
+![Pixel Ocean in motion: fish swim past, the crab scuttles and the jellyfish bob](docs/preview.gif)
+
+![Pixel Ocean, the full scene](docs/screenshot.png)
+
+*The scene on its own, rendered from the mod. In the app your conversation sits over the middle on lightly frosted panels.*
+
 The water is drawn on a 320×200 pixel grid, scaled up with crisp edges, and everything moves one pixel at a time, like an old console game:
 
 - a coral crab scuttling back and forth on the seabed
