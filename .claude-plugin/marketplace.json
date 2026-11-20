@@ -1,0 +1,6 @@
+{
+  "name": "pixel-ocean-theme",
+  "owner": { "name": "C0L0RSS" },
+  "description": "An 8-bit pixel-art ocean theme for the Claude Code desktop app.",
+  "plugins": [{ "name": "pixel-ocean", "source": "./" }]
+}
