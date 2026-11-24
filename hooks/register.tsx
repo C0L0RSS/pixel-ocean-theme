@@ -41,10 +41,9 @@ export const register: Register = on => {
     if (unpainted !== undefined) {
       $.ui.toast(unpainted)
     }
-    const set = await $.theme.set(LOOK)
-    if (!set.isDrawn) {
-      $.ui.status(set.reason)
-    }
+    // No status line when isDrawn is false: the desktop app attaches after
+    // session.start, so the theme always reads as undrawn here and draws anyway.
+    await $.theme.set(LOOK)
 
     return next(e)
   })
